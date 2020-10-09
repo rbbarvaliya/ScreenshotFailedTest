@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 21.762 s <<< FAILURE! - in TestSuite
+takeScreenshotTest(TestNGListenerConcept.ScreenshotTest)  Time elapsed: 0.369 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at TestNGListenerConcept.ScreenshotTest.takeScreenshotTest(ScreenshotTest.java:26)
+
+takeScreenshotTest1(TestNGListenerConcept.ScreenshotTest)  Time elapsed: 0.261 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at TestNGListenerConcept.ScreenshotTest.takeScreenshotTest1(ScreenshotTest.java:31)
+
+takeScreenshotTest2(TestNGListenerConcept.ScreenshotTest)  Time elapsed: 0.279 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at TestNGListenerConcept.ScreenshotTest.takeScreenshotTest2(ScreenshotTest.java:36)
+
